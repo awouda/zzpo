@@ -1,6 +1,10 @@
 import sbt._
 import Keys._
 
+/*
+project build definition
+ */
+
 object ZZPOBuild extends Build {
     lazy val root = Project(id = "zzpo",
                             base = file(".")) aggregate(domain,service)
