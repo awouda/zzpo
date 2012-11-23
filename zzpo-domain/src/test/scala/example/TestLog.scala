@@ -5,9 +5,9 @@ import scala.collection.mutable.Stack
 import org.slf4j.LoggerFactory
 
  
-class ExampleSuite extends FunSuite {
+class TestLogSuite extends FunSuite {
 
-   val logger = LoggerFactory.getLogger(classOf[ExampleSuite])
+   val logger = LoggerFactory.getLogger(classOf[TestLogSuite])
  
  
   test("testing slf4j") {
