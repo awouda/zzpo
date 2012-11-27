@@ -31,7 +31,7 @@ class TestLogSuite extends FunSuite {
 
   test("stupid test") {
 
-   assert(new com.jtm.zzpo.model.User().toString != null )
+   assert( com.jtm.zzpo.model.User().toString != null )
 }
 
 }

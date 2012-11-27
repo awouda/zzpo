@@ -8,7 +8,7 @@ class IntegrationWithModel extends FunSuite {
 
   test("first service test, calling class from domain") {
      
-    assert(new User().toString!= null)
+    assert( User.toString!= null)
 
   }
  

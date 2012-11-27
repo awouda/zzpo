@@ -1,10 +1,13 @@
 package com.jtm.zzpo.model
 
 
-class User {
+
+case class User(id: Option[Int], first: String, last: String)
 
 
 
-override def toString = "new user"
+object User {
+
+  def apply():User = User(None,"","")
 
 }
